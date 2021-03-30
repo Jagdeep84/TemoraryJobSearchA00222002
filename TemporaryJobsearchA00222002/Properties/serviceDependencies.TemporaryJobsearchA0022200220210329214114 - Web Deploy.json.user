@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2021-03-30T04:22:13.2099138Z"
+    }
+  },
+  "parameters": {
+    "TemporaryJobsearchA0022200220210329214114.resourceName": {
+      "Name": "TemporaryJobsearchA0022200220210329214114.resourceName",
+      "Type": null,
+      "Value": "TemporaryJobsearchA0022200220210329214114"
+    },
+    "TemporaryJobsearchA0022200220210329214114.resourceGroupLocation": {
+      "Name": "TemporaryJobsearchA0022200220210329214114.resourceGroupLocation",
+      "Type": null,
+      "Value": "centralus"
+    },
+    "TemporaryJobsearchA0022200220210329214114.resourceGroupName": {
+      "Name": "TemporaryJobsearchA0022200220210329214114.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "JagdeepSinghA00222002"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "a00bf0a2-d6e1-47d5-b0ef-4e021f0327f5"
+    },
+    "TemporaryJobsearchA0022200220210329214114.subscriptionId": {
+      "Name": "TemporaryJobsearchA0022200220210329214114.subscriptionId",
+      "Type": "subscription",
+      "Value": "a00bf0a2-d6e1-47d5-b0ef-4e021f0327f5"
+    }
+  }
+}

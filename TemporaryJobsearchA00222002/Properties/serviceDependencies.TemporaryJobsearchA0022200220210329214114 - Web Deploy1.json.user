@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2021-03-30T04:26:04.8114469Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-03-30T04:26:31.6634961Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "a00bf0a2-d6e1-47d5-b0ef-4e021f0327f5"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "JagdeepSinghA00222002"
+    }
+  }
+}

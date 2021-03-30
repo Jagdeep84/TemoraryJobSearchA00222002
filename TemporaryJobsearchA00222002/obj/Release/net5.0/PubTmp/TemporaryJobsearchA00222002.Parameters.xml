@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="TemporaryJobsearchA0022200220210329214114" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^H:\\web\\TemporaryJobsearchA00222002\\TemporaryJobsearchA00222002\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="TemporaryJobsearchA00222002.Contexts.Context" description="" value="Data Source=tcp:temporaryjobsearcha00222002dbserver.database.windows.net,1433;Initial Catalog=TemporaryJobsearchA00222002_db;User Id=Jagdeepsingh13@temporaryjobsearcha00222002dbserver;Password=Jagdeepsingh1984" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^H:\\web\\TemporaryJobsearchA00222002\\TemporaryJobsearchA00222002\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\TemporaryJobsearchA00222002\.Contexts\.Context\.sql$" />
+  </parameter>
+  <parameter name="TemporaryJobsearchA00222002.Data.ApplicationDbContext" description="" value="Data Source=tcp:temporaryjobsearcha00222002dbserver.database.windows.net,1433;Initial Catalog=TemporaryJobsearchA00222002_db;User Id=Jagdeepsingh13@temporaryjobsearcha00222002dbserver;Password=Jagdeepsingh1984" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^H:\\web\\TemporaryJobsearchA00222002\\TemporaryJobsearchA00222002\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\TemporaryJobsearchA00222002\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

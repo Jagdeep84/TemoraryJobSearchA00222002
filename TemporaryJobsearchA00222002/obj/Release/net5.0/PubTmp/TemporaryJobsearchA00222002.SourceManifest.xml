@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="H:\web\TemporaryJobsearchA00222002\TemporaryJobsearchA00222002\obj\Release\net5.0\PubTmp\Out\" />
+  <dbfullsql path="H:\web\TemporaryJobsearchA00222002\TemporaryJobsearchA00222002\obj\Release\net5.0\PubTmp\EFSQLScripts\TemporaryJobsearchA00222002.Contexts.Context.sql" />
+  <dbfullsql path="H:\web\TemporaryJobsearchA00222002\TemporaryJobsearchA00222002\obj\Release\net5.0\PubTmp\EFSQLScripts\TemporaryJobsearchA00222002.Data.ApplicationDbContext.sql" />
+</sitemanifest>

@@ -1,0 +1,20 @@
+{
+  "name": "Temporary Job Search",
+  "short_name": "Job Search",
+  "start_url": "/",
+  "scope": "/",
+  "display": "minimal-ui",
+  "icons": [
+    {
+      "sizes": "144x144",
+      "type": "image/png",
+      "src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fjob-search-logo-2-job-search-icon-over-image340376874.html&psig=AOvVaw2cID78flWDhvGlCVmkFBJM&ust=1617166881939000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDClZ6e1-8CFQAAAAAdAAAAABAI"
+    },
+    {
+      "sizes": "192x192",
+      "type": "image/png",
+      "src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fjob-search-logo-2-job-search-icon-over-image340376874.html&psig=AOvVaw2cID78flWDhvGlCVmkFBJM&ust=1617166881939000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDClZ6e1-8CFQAAAAAdAAAAABAI"
+    }
+  ]
+
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAya8TVW7ee0ufp6v5qiZflAAAAAACAAAAAAAQZgAAAAEAACAAAAAjtfQ4aIqTHbqnY9ba9W2pygQy0Cj/fcdCqb52mSqbEgAAAAAOgAAAAAIAACAAAADTPuVnC7lk56TeBi2C6QtpoRlTHZ4fkW2Fq0dJvrLokIAAAADYcPb10h6nBmGEjB/S6/6NEjCouZjL9aa7VQ4/oA1asGMBFxCgTodqPh3Ox/x45yF57taFNBflcB4DNKW8rSup7mLC8xAkrLIMm0m9KqqHgVMHrjfHFMz1JJaZwZPRMo1/4VIzxHVt0y+tm2EZsBeWC0LQ8smLO9upAhRgogCkQ0AAAACNvLKh29jLM28cVMGKTvevigy3HLavROl9reAfDqf79mW3N33mpycI2oPxcZ0EPLGs9102IxUssbYgACzK7aGc</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=H:\web\TemporaryJobsearchA00222002\TemporaryJobsearchA00222002\LocalDB.mdf;Integrated Security=True;Connect Timeout=30" />
+    <AzureDBConnectionStrings Include="Data Source=tcp:temporaryjobsearcha00222002dbserver.database.windows.net,1433;Initial Catalog=TemporaryJobsearchA00222002_db;User Id=Jagdeepsingh13@temporaryjobsearcha00222002dbserver;Password=Jagdeepsingh1984" />
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ContextDB">
+      <Value>Data Source=tcp:temporaryjobsearcha00222002dbserver.database.windows.net,1433%3bInitial Catalog=TemporaryJobsearchA00222002_db%3bUser Id=Jagdeepsingh13%40temporaryjobsearcha00222002dbserver%3bPassword=Jagdeepsingh1984</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:temporaryjobsearcha00222002dbserver.database.windows.net,1433%3bInitial Catalog=TemporaryJobsearchA00222002_db%3bUser Id=Jagdeepsingh13%40temporaryjobsearcha00222002dbserver%3bPassword=Jagdeepsingh1984</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="TemporaryJobsearchA00222002.Contexts.Context">
+      <Value>Data Source=tcp:temporaryjobsearcha00222002dbserver.database.windows.net,1433%3bInitial Catalog=TemporaryJobsearchA00222002_db%3bUser Id=Jagdeepsingh13%40temporaryjobsearcha00222002dbserver%3bPassword=Jagdeepsingh1984</Value>
+    </EFMigrations>
+    <EFMigrations Include="TemporaryJobsearchA00222002.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:temporaryjobsearcha00222002dbserver.database.windows.net,1433%3bInitial Catalog=TemporaryJobsearchA00222002_db%3bUser Id=Jagdeepsingh13%40temporaryjobsearcha00222002dbserver%3bPassword=Jagdeepsingh1984</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
